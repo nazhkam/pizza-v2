@@ -42,7 +42,7 @@ const Home: React.FC=()=>  {
       })
     );
   };
-
+  //типо что то поменяд
   React.useEffect(() => {
     if (window.location.search) {
       const params = qs.parse(window.location.search.substring(1));
